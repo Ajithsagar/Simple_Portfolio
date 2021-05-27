@@ -1,0 +1,70 @@
+body {
+    height: auto;
+    margin-right: 30%;
+    margin-left: 20%;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./1307358.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 85%;
+    border: 5px solid rgb(128, 25, 25);
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#social {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h2 {
+    border-left: 7px solid red;
+    padding-left: 5px;
+}
+
+footer {
+    background: black;
+    position: fixed;
+    bottom: 0;
+    color: rgb(218, 188, 194);
+    width: 100%;
+    height: 30px;
+    margin-left: -20%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+span {
+    color: rgb(243, 14, 14);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.project {
+    box-shadow: 0px 0px 8px -2px rgb(56, 75, 248);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.section {
+    padding-bottom: 30px;
+}
